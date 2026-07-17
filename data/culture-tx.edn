@@ -1,0 +1,15 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "geo.dish.khachapuri", :name "Khachapuri", :country "GEO", :kind :dish, :summary "Georgian dish of cheese-filled bread, holding status as the country's national dish.", :url "https://en.wikipedia.org/wiki/Khachapuri", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "geo.dish.khinkali", :name "Khinkali", :country "GEO", :kind :dish, :summary "Georgian dumpling with spiced meat, fish or vegetable filling, originating in the mountainous regions of eastern Georgia.", :url "https://en.wikipedia.org/wiki/Khinkali", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "geo.dish.lobio", :name "Lobio", :country "GEO", :kind :dish, :summary "Traditional Georgian bean stew made with walnuts, garlic, onions and spices, served in hot and cold varieties.", :url "https://en.wikipedia.org/wiki/Lobio", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "geo.dish.churchkhela", :name "Churchkhela", :country "GEO", :kind :dish, :summary "Traditional Georgian candle-shaped confection made by threading nuts onto a string and dipping them in thickened grape juice.", :url "https://en.wikipedia.org/wiki/Churchkhela", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "geo.beverage.georgian-wine", :name "Georgian wine", :country "GEO", :kind :beverage, :summary "Georgia has produced wine for at least 8,000 years, with wine traditionally fermented in clay vessels called kvevris.", :url "https://en.wikipedia.org/wiki/Georgian_wine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "geo.craft.kvevri", :name "Kvevri", :country "GEO", :kind :craft, :summary "Large earthenware vessel used for fermenting, storing and ageing traditional Georgian wine; the qvevri winemaking method was added to UNESCO's intangible cultural heritage list in 2013.", :url "https://en.wikipedia.org/wiki/Kvevri", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "geo.festival.tbilisoba", :name "Tbilisoba", :country "GEO", :kind :festival, :summary "Annual October festival celebrating the diversity and history of Tbilisi, the capital of Georgia.", :url "https://en.wikipedia.org/wiki/Tbilisoba", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "geo.heritage.gelati-monastery", :name "Gelati Monastery", :country "GEO", :kind :heritage, :summary "Medieval monastic complex near Kutaisi in the Imereti region of western Georgia, inscribed as a UNESCO World Heritage Site in 1994.", :url "https://en.wikipedia.org/wiki/Gelati_Monastery", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
