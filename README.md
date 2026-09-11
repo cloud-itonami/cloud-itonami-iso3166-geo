@@ -54,8 +54,8 @@ department.
 | Ops | `:engagement/intake` · `:jurisdiction/assess` · `:filing/draft` · `:filing/submit` |
 | Flagship HARD check | `white-list-claim-unverified` (Law of Georgia on Public Procurement Article 3(1)(l1) -- a CONDITIONAL check independently re-verifying a claimed POSITIVE benefit, a genuinely different shape from prior siblings' unconditional bar-screening checks -- see `docs/adr/0001-architecture.md`) |
 | Compliance catalog | `src/statute/facts.cljk` -- Tax Code, Labour Code, Law on Entrepreneurs |
-| Tests | `clojure -M:dev:test` |
-| Demo | `clojure -M:dev:run` |
+| Tests | `kbb -M:dev:test` |
+| Demo | `kbb -M:dev:run` |
 | Architecture ADR | [`docs/adr/0001-architecture.md`](docs/adr/0001-architecture.md) |
 
 `:filing/submit` is never in any phase's `:auto` set -- human sign-off
